@@ -1,4 +1,6 @@
 {:main home.core
  :output-to "out/index.js"
  :output-dir "out"
- :target :bundle}
+ :target :bundle
+ :bundle-cmd {:none ["npx" "parcel" "build" "out/index.js" "--out-dir" "out" "--out-file" "main.js" "--no-minify"]
+              :default ["npx" "parcel" "build" "out/index.js"]}}
