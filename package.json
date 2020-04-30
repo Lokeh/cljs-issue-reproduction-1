@@ -5,7 +5,7 @@
     "start:win": "powershell -command \"clj -m cljs.main -co build.edn -ro repl.edn -v -w src -c -r\""
   },
   "dependencies": {
-    "parcel": "^2.0.0-alpha.3.2",
+    "parcel": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
